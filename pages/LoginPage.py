@@ -1,0 +1,15 @@
+class LoginPageLocators:
+    LOGIN_FIELD = "//*[@id='field_email']"
+    PASSWORD_FIELD = "//*[@id='field_password']"
+    SING_IN = "//*[@data-l='t,sign_in']"
+    QR_TITLE = "//*[@id='qrCode-7370001699']"
+    RESTORE_FIELD = "//*[@data-l='t,restore']"
+    EXTERNAL_LOGIN = "//*[@class='external-oauth-login_title-tx']"
+    REGISTER_FIELD = "//*[@data-l='t,register']"
+    VK_ICON = "//*[@class='i ic social-icon __s __vk_id']"
+    MAIL_ICON = "//*[@class='i ic social-icon __s __mailru']"
+    GOOGLE_ICON = "//*[@class='i ic social-icon __s __gp']"
+    YANDEX_ICON = "//*[@class='i ic social-icon __s __yandex']"
+    APPLE_ICON = "//*[@class='i ic social-icon __s __apple']"
+    LOGO_IMG = "//*[@class='toolbar_logo_img']"
+from sel
