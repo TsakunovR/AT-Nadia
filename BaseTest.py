@@ -1,11 +1,13 @@
 import pytest
 from selenium import webdriver
 
+
 @pytest.fixture(scope='session')
 def browser():
-    driver = webdriver.Chrome("executable_path="C:\Users\eugen\Downloads\chromedriver-win64.zip\chromedriver-win64"")
+    driver = webdriver.Chrome()
     yield driver
-    driver.quit()
+    driver.quit(
+
 
 
 
